@@ -1,0 +1,64 @@
+App downloaded.
+
+Onboarding options:
+    1: Import wallet via private key
+    2: Connect to metamask
+    3: Connect to rainbow wallet 
+    4: Connect to trust wallet
+    5: Create account
+        1: Generates secret recovery phrase
+        2: Gives option to backup private key to icloud keychain.
+        3: Maker user confirm secret recovery phrase
+
+Account config
+    Concept: There are two types of user accounts as follows.
+        Type 1: User accounts that are not on chain and are considered "unverified"
+        Type 2: User accounts that are on chain and considered "verified"
+        Notes: Front end will simply scan to see if the wallet has minted an account NFT from the offical contract, if it has it will display the verification mark.
+
+    Information help within account/nft:
+        Profile image
+        Username
+        Name
+        Bio
+        Wallet address
+        ENS domain (optional)
+        Website link
+        Algorythm
+            Notes: In the initial version this will simply be a list of categories that they are interested in
+
+    Notes: The alpha version of the app will store the metadata on a central server so that the Metadata in each users NFT can be changed without spending gas.
+    this also allows for the app to cross reference usernames so that there is uniqueness.
+
+
+Posting content
+    Account type:
+        Type 1: When video is posted, it and its metadata is held on central server
+        Type 2: When video is posted, it is minted to the profiles smart contracts for all their content.
+            Options:
+                1: They can opt to lock their post off chain so no one can mint it, only they can unlock the content later.
+                2: They can mint the content and itll be added to their smart contract.
+                3: They can mint the content and set a price is someone wants to buy it.
+                Notes: The first content that the account mints is also when their content smart contract is deployed, the user will also be prompted to do this when they verify their account.
+
+    Content data:
+        Storage: In the early stages of the app this will be stored on a central server, later we can move to IPFS.
+        Data points:
+            video
+            creator (Wallet address+Username)
+            owner (Wallet address+Username)
+            captions
+            like count
+                list of accounts that liked (Wallet address+Username)
+            comment count
+                list of accoutns that commented (Wallet address+username)
+            Comments
+                Comment content
+                Comment like count
+                    Comment likers (Wallet address+Username)
+
+
+
+
+        
+
