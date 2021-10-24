@@ -1,0 +1,2 @@
+Description: This file serves as an outline for the various pages and ui pieces that will make up the flic app.
+
