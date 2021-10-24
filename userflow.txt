@@ -57,7 +57,10 @@ Posting content
                 Comment like count
                     Comment likers (Wallet address+Username)
 
+Tipping
+    On profile page
 
+    On content
 
 
         
