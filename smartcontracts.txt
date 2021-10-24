@@ -1,6 +1,28 @@
 Flic token smart contract
+    Details:
+        ERC20
+        Fixed supply: 1B
+        No max buy
+        Freeze swap enabled
 
 Flic user profile smart contract
+        ERC 1155 or ERC 721
+        Max one per wallet
+        Transfer disabled
+        Simply links to metadata which can be changed due to centralization
+        Data stored:
+            Name (string)
+            Username (string)
+            Profile image (PNG, JPG, GIF)
+            Bio (string)
+            Follower count (int)
+            Following count (int)
+            Video count (int)
+            Like count (int)
+            View count (int)
+            Tip count, in Flic tokens (int)
+                Data pulled from chain
+            
 
 Flic post smart contract
 
