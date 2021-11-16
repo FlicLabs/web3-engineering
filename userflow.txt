@@ -1,11 +1,12 @@
 App downloaded.
 
 Onboarding options:
-    1: Import wallet via private key
-    2: Connect to metamask
-    3: Connect to rainbow wallet 
-    4: Connect to trust wallet
-    5: Create account
+    1: Connect Wallet
+        1: Import wallet via private key
+        2: Connect to metamask
+        3: Connect to rainbow wallet 
+        4: Connect to trust wallet
+    2: Create account
         1: Generates secret recovery phrase
         2: Gives option to backup private key to icloud keychain.
         3: Maker user confirm secret recovery phrase
@@ -24,7 +25,7 @@ Account config
         Wallet address
         ENS domain (optional)
         Website link
-        Algorythm
+        Algorithm
             Notes: In the initial version this will simply be a list of categories that they are interested in
 
     Notes: The alpha version of the app will store the metadata on a central server so that the Metadata in each users NFT can be changed without spending gas.
